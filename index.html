@@ -5,27 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> HTML CHECKPOINT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <Header>
-        <nav>
-            <ul>
-                <a href="#">Home</a>&nbsp;
-                <a href="#about">About</a>&nbsp;
-                <a href="#work">Work</a>&nbsp;
-                <a href="#resume">Resume</a>&nbsp;
-                <a href="#contact">Contact</a>&nbsp;
-            </ul>
-        </nav>
+        <a href="#" class="logo">Portfo<span>lio</span></a>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </Header>
-    <hr>
-    <main>
+    <main class="main">
         <section id="about">
-            <h2 align="center">About Me</h2>
+            <h2>About Me</h2>
             <p>Hello! My name is Emmanuel Nwafor and I am a passionate and experienced web developer. I have a deep understanding of various web technologies and a track record of delivering high-quality, user-friendly websites. I am constantly seeking new challenges and opportunities to expand my skillset and stay up-to-date with the latest web development trends.</p>
         </section>
         <section id="work">
-            <h2 align="center">Work</h2>
+            <h2>Work</h2>
             <p>I have worked on a variety of web development projects, ranging from small, single-page sites to large-scale, complex web applications. Some of my notable projects include:</p>
             <ol>
                 <li><h3>E-commerce Website: </h3>Developed a fully-functional e-commerce website for a local retailer, complete with a custom-built shopping cart and payment gateway integration.</li>
@@ -34,7 +40,7 @@
             </ol>
         </section>
         <section id="resume">
-            <h2 align="center">Resume</h2>
+            <h2>Resume</h2>
             <dl>
                 <dd><h3>Education</h3></dd>
                 <dt>
@@ -87,13 +93,12 @@
                         <input type="Number" name="phone">
                     </p>
                 </fieldset>
-                <br>
-                <input type="submit" value="submit">
+                <input class="button" type="submit" value="submit">
             </form>
         </section>
     </main>
     <footer>
-        <p align="center">Copyright &copy; Emmanuel Nwafor &nbsp <a href="+2347053187034">0705-318-7034</a></p>
+        <p>Copyright &copy; Emmanuel Nwafor &nbsp <a class="phone" href="+2347053187034">0705-318-7034</a></p>
     </footer>
     
 </body>

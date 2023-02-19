@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+    background: rgb(20, 0, 0)
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(201, 6, 23);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.logo span{
+    color: white;
+}
+
+.container nav ul li{
+    display: inline;
+    padding-right: 40px;
+}
+
+.main{
+    background: rgb(16, 16, 16);
+    padding-left: 200px;
+    padding-right: 100px;
+    line-height: 1.5;
+    color: white;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(201, 6, 23);
+}
+
+h2{
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+h3{
+    padding: 10px 0;
+    text-decoration: underline;
+}
+
+.main li{
+    list-style: none;
+    display: block;
+    padding: 5px 0px;
+}
+
+form{
+    width: 50%;
+}
+
+#contact h2{
+    text-align: left;
+}
+
+.button{
+    margin: 10px 0px;
+    padding: 10px 40px;
+    border: transparent;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(201, 6, 23);
+    text-transform: capitalize;
+}
+
+footer{
+    padding: 50px 0px;
+    font-size: 20px;
+    background-color: rgb(20, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.phone{
+    color: white;
+    text-decoration: none;
+}
